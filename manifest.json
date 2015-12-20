@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Ebay price query",
+  "description": "This extension shows ebay price of the selling item on the website",
+  "version": "1.0",
+  "icons": {
+	    "48" : "icon-48.png",
+	    "128" : "icon-128.png"
+	  },
+	"content_scripts": [
+		{
+			"matches": ["http://www.amazon.com/*"],
+			"js" : ["jquery-1.8.2.min.js", "underscore-min.js", "contentscript.js"]
+		}
+	],
+
+  "permissions": [
+		"activeTab",
+		"http://ebayprice-1164.appspot.com/*",
+		"http://www.amazon.com/*"
+	]
+}
