@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Ebay price query",
-  "description": "This extension shows ebay price of the selling item on the website",
+  "name": "Lower Ebay Price Alert",
+  "description": "This extension shows ebay price of the selling item on Amazon when ebay price is lower.",
   "version": "1.0",
   "icons": {
 	    "48" : "icon-48.png",
